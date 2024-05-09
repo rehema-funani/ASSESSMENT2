@@ -1,66 +1,345 @@
-#navbar{
+
+    
+
+.imlabook{
+    width: 14%;
+    height: 14%;
+    
+    object-fit: cover;
+    margin-left: 40px;
+    
+}
+li{
+    list-style: none;
+    
+}
+
+ul{
     display: flex;
+    gap: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: gray;
+    
+
+    
+}
+header{
+    display: flex;
+    
     justify-content: space-evenly;
 }
-button{
-    background-color: aqua;
-    border-radius: 15%;
-    width: 35%;
+
+#loginbutton{
+    background-color: white;
+    border: none;
 }
-#container1{
+#startbutton{
+    background-color: rgb(113,182,176);
+    border: none;
+    border-radius: 30px;
+    
+
+
+}
+
+
+#about{
     display: flex;
-    justify-content: space-evenly;
+    margin-left: 14%;
+    
+    
 }
+
+
+
 #footer{
-    background-color: aqua;
+    background-color: rgb(227,240,239);
+    height: 200px;
     
     
+    
 }
-.img{
-    width: 10%;
-    height: 5%;
+.toggle{
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    
+
 }
-#imgfooter{
-    display: flex;
-    justify-content: space-evenly;
+.toggle input{
+    border: 1px solid;
+    border-radius: 30px;
+    padding-right: 40px;
+    padding: 15%;
+    width: 600px;
+    
+
+    
 }
-#wordings{
+
+.toggle button{
+    position: absolute;
+    margin-left: 450px;
+    padding: 8%;
+    
+
+    
+
+    
+    top: 25%;
+    width: 70%;
+    border: none;
+    
+    background-color: rgb(113,182,176);
+    border-radius: 40%;
+    
+    
+
+}
+.learnerimage{
+    border: 1px;
+    border-radius: 50%;
+    margin-left: -17%;
+    background-color: rgb(240,193,127);
+
+    
+}
+#learner{
+    width: 50%;
+    
+
+}
+#footerwords{
     text-align: center;
 }
-@media screen and (max-width:1280px) {
-    body{
-        #navbar{
+
+.socialicon{
+    width: 10%;
+    object-fit: cover;
+    
+}
+.socialiconpinterest{
+  width: 7%;  
+}
+#icons{
+  display: flex;  
+  gap: 5%;
+}
+.sociallogo{
+    width: 5%;
+    margin-left: 10%;
+    
+    
+    
+}
+#searchsite{
+    width: 50%;
+    
+}
+body{
+    background-color: rgb(211,218,235);
+    padding: 5%;
+}
+#about{
+    opacity: 92%;
+}
+#wholepage{
+    background-color: rgb(255,255,255);
+    padding: 5%;
+    
+}
+#logos{
+    gap: 2%;
+    
+}
+@media screen and (min-width:200px) and (max-width:400px){
+        header{
+            display: flex;
+            flex-direction: row;
             font-size: x-small;
-            text-align: center;
             
         }
-        button{
-            width: 15%;
+        .learnerimage{
+            width: 125px;
         }
-        input{
-            width: 15%;
-        }
-        #container1{
 
-        }
-        .img1{
-            width: 130px;
-            height: 70%;
-        }
-        .img{
-            width: 15%;
-            height: 15%;
-        }
-        .img2{
-            width: 15%;
-            height: 5%;
-        }
-        .second{
-            width: 50%;
-        }
-        .sec{
-            width: 85%;
-        }
+    
+    
+    
+
+    #wholepage{
+        margin: auto;
+        padding: 0%;
     }
+    #body{
+        padding: 0%;
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .toggle{
+        position: relative;
+        display: inline-block;
+        width: 1px;
+        
+    
+    }
+    .toggle input{
+        border: 1px solid;
+        border-radius: 3px;
+        padding-right: 40px;
+        padding: 5%;
+        width: 190px;
+    
+        
+    }
+    .toggle button{
+        position: absolute;
+        margin-left: 140px;
+        padding: 8%;
+        
+    
+        
+    
+        
+        top: 25%;
+        width: 55px;
+        border: none;
+        
+        background-color: rgb(113,182,176);
+        border-radius: 40%;
+        
+        
+    
+    }
+
+    
+}
+@media screen and (min-width:401px) and (max-width:800px){
+    #about{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .learnerimage{
+        width: 200px;
+    }
+    .toggle{
+        position: relative;
+        display: inline-block;
+        width: 1px;
+        
+    
+    }
+    .toggle input{
+        border: 1px solid;
+        border-radius: 30px;
+        padding-right: 40px;
+        padding: 5%;
+        width: 250px;
+    
+        
+    }
+    .toggle button{
+        position: absolute;
+        margin-left: 160px;
+        padding: 8%;
+        
+    
+        
+    
+        
+        top: 25%;
+        width: 55px;
+        border: none;
+        
+        background-color: rgb(113,182,176);
+        border-radius: 40%;
+        
+        
+    
+    }
+    #imla{
+        margin-right: 80px;
+    }
+    
+}
+
+@media screen and (min-width:801px) and (max-width:1208px){
+    
+
+
+    body{
+        padding: auto;
+        
+        
+    }
+        
+        
+    
+    #wholepage{
+        padding: auto;
+        
+    }
+    #about{
+        display: flex;
+        
+        
+        
+    }
+    .learnerimage{
+        width: 300px;
+    }
+    .toggle{
+        position: relative;
+        display: inline-block;
+        width: 20px;
+        
+    
+    }
+    .toggle input{
+        border: 1px solid;
+        border-radius: 30px;
+        padding-right: 30px;
+        padding: 5%;
+        width: 100px;
+    
+        
+    }
+    .toggle button{
+        position: absolute;
+        margin-left: 100px;
+        padding: 8%;
+        
+    
+        
+    
+        
+        top: 25%;
+        width: 40px;
+        border: none;
+        
+        background-color: rgb(113,182,176);
+        border-radius: 40%;
+        
+        
+    
+    }
+    .learnerimage{
+        border: 1px;
+        border-radius: 50%;
+        margin-left: -15%;
+        background-color: rgb(240,193,127);
+    
+        
+    }
+
+
+
     
 }
